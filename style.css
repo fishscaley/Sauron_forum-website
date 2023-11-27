@@ -1,0 +1,16 @@
+/*global*/
+
+@font-face {
+    font-family: sauronEx;
+    src: url(fonts/Cormorant-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: sauronEx;
+    font-style: italic;
+}
