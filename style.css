@@ -14,15 +14,22 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(images/wp5473268-high-res-purple-anime-wallpapers.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 html {
     font-size: 14px;
     font-family: sauronEx2;
-    background-color: black;
     color: white;
 }
 
 a {
-    color: red;
+    color: #c75fff;
     font-weight: bolder;
     text-decoration: none;
 }
@@ -206,4 +213,10 @@ header {
         font-family: sauronEx;
         display: inline-block;
     }
+}
+
+/* Search box */
+
+.search-box {
+    
 }
