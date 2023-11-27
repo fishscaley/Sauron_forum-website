@@ -2,7 +2,12 @@
 
 @font-face {
     font-family: sauronEx;
-    src: url(fonts/Cormorant-Regular.ttf);
+    src: url(fonts/13_Misa.TTF);
+}
+
+@font-face {
+    font-family: sauronEx2;
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
 * {
@@ -11,8 +16,7 @@
 
 html {
     font-size: 14px;
-    font-family: sauronEx;
-    font-style: italic;
+    font-family: sauronEx2;
     background-color: black;
     color: white;
 }
@@ -33,6 +37,7 @@ h1 {
 .container {
     margin: 20px;
     padding: 20px;
+    font-style: italic;
 }
 
 .subforum {
@@ -108,4 +113,68 @@ h1 {
     h1 {
         font-size: 18px;
     }
+}
+
+/* Navbar */
+
+header {
+    margin-inline: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-item a {
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.nav-item a:hover {
+    background-color: rgb(0,0,0,0.5);
+}
+
+.close-icon i {
+    font-size: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.bar-icon{
+    font-size: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.brand {
+    font-size: 60px;
+    font-family: sauronEx;
+    display: inline-block;
 }
