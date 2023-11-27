@@ -11,9 +11,9 @@
 <body>
     <header>
         <div class="navbar">
-            <nav class="navigation hide">
+            <nav class="navigation hide" id="navigation">
                 <ul class="nav-list">
-                    <span class="close-icon"><i class="fa fa-close"></i></span>
+                    <span class="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                     <li class="nav-item">
                         <a href="#">Home</a>
                     </li>
@@ -25,7 +25,7 @@
                     </li>
                 </ul>
             </nav>
-            <a href="" class="bar-icon"><i class="fa fa-bars"></i></a>
+            <a href="#" class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
             <div class="brand">Sauron</div>
         </div>
     </header>

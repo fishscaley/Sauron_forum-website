@@ -178,3 +178,32 @@ header {
     font-family: sauronEx;
     display: inline-block;
 }
+
+/* Navbar on mobile */
+
+@media screen and (max-width: 460px){
+    .navigation {
+        max-height: 100;
+        max-width: 100;
+    }
+
+    .nav-item a {
+        float: left;
+        display: inline;
+        text-align: center;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+        color: white;
+    }
+
+    .close-icon i {
+        font-size: 30px;
+    }
+
+    .brand {
+        font-size: 20px;
+        font-family: sauronEx;
+        display: inline-block;
+    }
+}
