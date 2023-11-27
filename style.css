@@ -13,4 +13,18 @@ html {
     font-size: 14px;
     font-family: sauronEx;
     font-style: italic;
+    background-color: black;
+    color: white;
 }
+
+a {
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
